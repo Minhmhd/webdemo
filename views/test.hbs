@@ -1,0 +1,14 @@
+<h1>we are living in {{ year }}</h1>
+<h2>{{ mobile }}</h2>
+<h3>{{ city }} is the capital of vietnam</h3>
+<br>
+<table class="table table-primary">
+    <tr>
+        <th>Mobile</th>
+    </tr>
+    {{#each mobile }}
+        <tr>
+            <td>{{ this }}</td>
+        </tr>
+    {{/each}}
+</table>
